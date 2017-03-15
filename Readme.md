@@ -6,8 +6,11 @@ Photo metadata reader class for PHP that reads the image headers for related met
 
 $meta = new PhotoMetadataReader('/path/to/image/file.jpg');
 
-echo $meta->getTitle(); // title of photo in metadata
-echo $meta->getDescription(); // title of photo in metadata
+// title of photo in metadata
+echo $meta->getTitle(); 
+
+// title of photo in metadata
+echo $meta->getDescription(); 
 
 // custom exif array containes the follwing fields: 
 // camera_make, camera_model, aperture, exposure, iso, focal_length, flash_fired, flash_value
